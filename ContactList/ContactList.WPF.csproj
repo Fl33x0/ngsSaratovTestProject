@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContactList.Entities\ContactList.Entities.csproj" />
+    <ProjectReference Include="..\ContactList.SqlDAL\ContactList.SqlDAL.csproj" />
+  </ItemGroup>
+
+</Project>
